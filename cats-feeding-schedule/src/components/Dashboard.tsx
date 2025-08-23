@@ -44,7 +44,7 @@ const Dashboard: React.FC = () => {
             <tr key={pet.id}>
               <td>{pet.name}</td>
               <td>{pet.type}</td>
-              {mealtimes.map((time, index) => (
+              {mealtimes.map((_, index) => (
                 <td key={index}>
                   <input type="checkbox" />
                 </td>
